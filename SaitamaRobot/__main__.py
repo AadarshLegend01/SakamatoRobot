@@ -207,20 +207,20 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{VibroVictoryChat}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             url="https://t.me/VibroVictory")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🧾 Getting started guide",
-                             url="https://t.me/OnePunchUpdates/29")
+                             url="https://t.me/VibroVictoryChat")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/NOTEXISTS/NOTEXISTS")
                      ]]))
     else:
         update.effective_message.reply_text(
